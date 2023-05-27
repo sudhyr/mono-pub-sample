@@ -1,0 +1,15 @@
+{
+  "name": "mono-pub-sample",
+  "version": "1.0.0",
+  "description": "monorepo setup sample",
+  "main": "index.js",
+  "author": "rihdus",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
